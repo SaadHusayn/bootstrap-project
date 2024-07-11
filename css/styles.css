@@ -7,6 +7,10 @@
     font-family: "Urbanist", sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 :root{
     --bs-dark-color: #1a1d20;
     --bs-dark-primary:#1c1c1c;
@@ -26,7 +30,7 @@ h1{
 }
 
 h2{
-    line-height: 3rem;
+    line-height: 4rem;
     font-weight: 600;
     font-size: 3.4rem;
 }
@@ -54,6 +58,20 @@ button, a{
     font-size: 1.15rem!important;
     letter-spacing: 0.03rem;
     word-spacing: .1rem;
+}
+
+.common-heading{
+    font-size: 2.8rem;
+    font-weight: 500;
+    letter-spacing: 0.01rem!important;
+}
+
+.common-title {
+    margin-bottom: 4.2rem;
+}
+
+.common-section{
+    padding: 0 0 9rem 0;
 }
 
 /* navbar */
@@ -91,4 +109,68 @@ button, a{
 .hero-video--section{
     width: 30rem;
     border-radius: 2rem;
+}
+
+.custom-shape-divider-bottom-1720683463 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1720683463 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1720683463 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* service section  */
+
+.services-section{
+    padding: 6rem 0 3rem 0!important;
+}
+
+.icon-span{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: var(--secondary-color);
+    color: var(--bs-main-color);
+}
+
+.card-box:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+
+/* more info section  */
+
+.more-info-section{
+    background-image: linear-gradient(rgba(22,22,22,0.7), rgba(22,22,22,0.9)), url("https://images.pexels.com/photos/316093/pexels-photo-316093.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 6rem 0;
+    overflow: hidden;
+}
+
+.more-info-section .image-section {
+    position: relative;
+}
+
+.more-info-section .image-section img{
+    width: 70%;
+}
+
+/* online section starts  */
+
+.business-section{
+    padding-top: 3rem;
 }
